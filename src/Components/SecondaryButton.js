@@ -8,7 +8,6 @@ function SecondaryButton(props) {
         background: #FFFFFF;
         border: 1px solid #64748B;
         border-radius: 24px;
-        padding: 8px 16px;
         box-shadow: inset 0px 1px 2px rgba(10, 15, 26, 0.08);
         min-width: ${minWidth};
         color: #64748B;
