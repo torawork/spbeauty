@@ -9,16 +9,19 @@ const WrapperInput = styled.div`
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
-    color: #152842;
+    padding: 8px, 16px, 8px, 16px;
+    gap: 16px;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
+    background-color: #F8FAFC;
+    color: #94A3B8;
     width: 100%;
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        opacity: 80;
     }
     &:focus {
-        background: white;
+        background-color: #F8FAFC;
+        color: #0F172A;
     }
 `;
 
