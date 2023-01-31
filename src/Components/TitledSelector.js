@@ -8,13 +8,14 @@ const Select = styled.select`
     appearance: none !important;
     width: 447px;
     height: 34px;
-    outline-offset: 8px 16px;
     border-radius: 24px;
     border: solid #E2E8F0 1px;
     background-color: #F8FAFC;
     color: #0F172A;
     &:hover {
-        opacity: 80;
+        border: solid #E8EDF3 1px;
+        background-color: #F9FBFD;
+        color: #0F172A;
     }
 `;
 
@@ -25,7 +26,7 @@ function TitledSelector({title, options}) {
     return (
         <div className='d-flex flex-column gap-2'>
             {Title}
-            <Select className='p-2'>
+            <Select className='px-3 py-2'>
                 {options.map(optionName => {
                     return (
                         <option key={optionName}>{optionName}</option>
