@@ -9,7 +9,7 @@ const WrapperInput = styled.div`
 
 const Input = styled.input`
     outline: none;
-    padding: 8px, 16px, 8px, 16px;
+    padding: 8px 16px;
     gap: 16px;
     border-radius: 24px;
     border: solid #E2E8F0 1px;
