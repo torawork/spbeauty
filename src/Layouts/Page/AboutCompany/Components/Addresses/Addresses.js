@@ -5,10 +5,10 @@ function Addresses() {
     return (
         <div className='d-inline-flex flex-column gap-2 mt-4'>
             <div className='title'>Адреса заведений</div>
-            <div className='d-inline-flex flex-column gap-3'>
+            <div className='d-inline-flex flex-column gap-2'>
                 <ListElement>Санкт-Петербург, Невский пр-т. 28</ListElement>
                 <ListElement>Санкт-Петербург, Казанская ул, 7</ListElement>
-                <PrimaryButton>Добавить филиал</PrimaryButton>
+                <SecondaryButton>Добавить филиал</SecondaryButton>
             </div>
         </div>
     );
