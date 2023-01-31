@@ -8,7 +8,9 @@ const Input = styled.input`
     background-color: #F8FAFC;
     color: #0F172A;
     &:hover {
-        opacity: 80;
+        border: solid #E8EDF3 1px;
+        background-color: #F9FBFD;
+        color: #A9B5C6;
     }
 `;
 
