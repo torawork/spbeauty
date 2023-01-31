@@ -4,7 +4,10 @@ import EditIcon from '../../../../../Icons/EditIcon';
 import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
 
-
+const Option = styled.div`
+    outline: none;
+    color: #0F172A;
+`;
 
 function ListElement(props) {
     return (
