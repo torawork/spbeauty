@@ -10,7 +10,7 @@ const Input = styled.input`
     &:hover {
         border: solid #E8EDF3 1px;
         background-color: #F9FBFD;
-        color: #A9B5C6;
+        color: #0F172A;
     }
 `;
 
